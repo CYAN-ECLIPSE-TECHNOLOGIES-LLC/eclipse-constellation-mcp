@@ -1,5 +1,7 @@
 # eclipse-constellation
 
+mcp-name: io.github.CYAN-ECLIPSE-TECHNOLOGIES-LLC/constellation
+
 **What this is:** `eclipse-constellation` is the MCP server edition
 of **Eclipse Constellation** — Cyan Eclipse Technologies' governed,
 vendor-neutral VM fleet layer for agents: one policy, one receipt

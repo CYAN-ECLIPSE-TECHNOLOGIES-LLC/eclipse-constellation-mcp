@@ -36,5 +36,3 @@ eclipse-constellation = "server:main"
 "targets.json" = "targets.json"
 "policy.json" = "policy.json"
 
-[tool.hatch.build.targets.sdist]
-packages = ["."]
