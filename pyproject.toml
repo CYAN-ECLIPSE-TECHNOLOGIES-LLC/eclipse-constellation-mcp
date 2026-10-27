@@ -1,0 +1,40 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "eclipse-constellation"
+version = "0.1.0"
+description = "Eclipse Constellation MCP — the governed, vendor-neutral VM fleet layer for agents: one policy, one receipt ledger, every cloud and hypervisor underneath."
+readme = "PYPI_README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Cyan Eclipse Technologies LLC" },
+]
+keywords = ["mcp", "model-context-protocol", "vm", "fleet", "governance", "policy"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries",
+]
+
+[project.urls]
+Homepage = "https://cetech.ai"
+Repository = "https://github.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-constellation-mcp"
+Vendor = "https://cetech.ai"
+
+[project.scripts]
+eclipse-constellation = "server:main"
+
+# Flat layout: the server module + its runtime registry/policy files
+# shipped at the wheel root (the server resolves them beside server.py).
+[tool.hatch.build.targets.wheel.force-include]
+"server.py" = "server.py"
+"targets.json" = "targets.json"
+"policy.json" = "policy.json"
+
+[tool.hatch.build.targets.sdist]
+packages = ["."]

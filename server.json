@@ -4,5 +4,37 @@
  "title": "Eclipse Constellation MCP",
  "description": "The governed, vendor-neutral VM fleet layer for agents: one policy, one receipt ledger, every cloud",
  "version": "0.1.0",
- "websiteUrl": "https://eclipsebazaar.com"
+ "websiteUrl": "https://eclipsebazaar.com",
+ "repository": {
+  "source": "github",
+  "url": "https://github.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-constellation-mcp"
+ },
+ "icons": [
+  {
+   "src": "https://raw.githubusercontent.com/CYAN-ECLIPSE-TECHNOLOGIES-LLC/eclipse-constellation-mcp/main/icon-512.png",
+   "mimeType": "image/png",
+   "sizes": [
+    "512x512"
+   ]
+  }
+ ],
+ "packages": [
+  {
+   "registryType": "pypi",
+   "identifier": "eclipse-constellation",
+   "version": "0.1.0",
+   "runtimeHint": "uvx",
+   "transport": {
+    "type": "stdio"
+   }
+  },
+  {
+   "registryType": "oci",
+   "identifier": "ghcr.io/cyan-eclipse-technologies-llc/eclipse-constellation-mcp:0.1.0",
+   "runtimeHint": "docker",
+   "transport": {
+    "type": "stdio"
+   }
+  }
+ ]
 }
