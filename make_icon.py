@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Constellation MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Generate icon-512.png — brand system SS6: eclipse motif on the navy
+
 """Generate icon-512.png — brand system SS6: eclipse motif on the navy
 field (#0d1b2a), one per-product glyph. Constellation's glyph is a
 star cluster: a crescent eclipse ring + a scatter of stars read as one
@@ -49,3 +53,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Constellation MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

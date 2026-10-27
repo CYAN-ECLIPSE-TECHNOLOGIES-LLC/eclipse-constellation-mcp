@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Eclipse Constellation MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Smoke: drive server.py over real stdio with a temp state file.
+
 """Smoke: drive server.py over real stdio with a temp state file.
 Declares nothing new — probes the shipped registry (self-vm only),
 walks the policy-evaluation flows, prints a compact transcript.
@@ -81,3 +85,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Constellation MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

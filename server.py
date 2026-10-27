@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+# Eclipse Constellation MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+
 """Eclipse Constellation MCP — v0.1.0 (governance core + SSH-observe adapter).
 
 Powered by Cyan Eclipse Technologies (cetech.ai).
@@ -691,3 +694,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# Eclipse Constellation MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai

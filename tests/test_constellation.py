@@ -1,3 +1,7 @@
+# Eclipse Constellation MCP
+# Copyright © 2026 Cyan Eclipse Technologies LLC · cetech.ai
+# Eclipse Constellation v0.1 tests — governance core + observe adapter.
+
 """Eclipse Constellation v0.1 tests — governance core + observe adapter.
 
 All tests run against a temp state + the product's real targets.json /
@@ -216,3 +220,5 @@ class FleetAndLedgerTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+# Eclipse Constellation MCP · © 2026 Cyan Eclipse Technologies LLC · cetech.ai
